@@ -1,0 +1,11 @@
+.button-container{
+    min-height: 60px; 
+    display:flex;
+    align-items: flex-end;
+  }
+
+  .text-input {
+    width: 100%;
+    font-size: 30px;
+    padding: 5px 10px;
+  }
