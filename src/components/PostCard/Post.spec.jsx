@@ -15,4 +15,9 @@ describe('<PostCard />', () => {
       expect(screen.getByText('body 1')).toBeInTheDocument();
 
     });
+
+     it('should match snapshot', () => {
+       const {container} = render(<PostCard {...props} />);
+       expect(container.firstChild).toMacthSnapshot();
+     });
 });
